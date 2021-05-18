@@ -15,15 +15,28 @@ body{
     background-image: url(/images/fondo.jpg);
 }
 
+img{
+    max-width: 100%;
+}
+
+.slider1{
+    background-image: url(/images/flamas.jpg);
+    position: relative;
+    height: 300px;
+    width: 100%;
+    max-width: 1000px;
+    background-size: cover;
+    background-position: center center;
+}
+
  .cabecera{
     display: flex;
     justify-content: center; 
 } 
 
 .logo{
-    position: absolute;
-    right: 365px;
-    top: 55px;
+    align-items: center;
+    margin-top: 50px; 
     border-radius: 30px;
 }
 
@@ -90,6 +103,7 @@ body{
     margin-bottom: 15px;
 }
 
+
 .footer{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -108,4 +122,37 @@ body{
 
 .footer-redes{
     border-right: 1px solid var(--negro);
+}
+
+
+
+@media (max-width: 800px) {
+    body {
+        background-color: plum;
+    }
+}
+
+/* media query solo para celulares */
+@media (max-width: 767px) {
+    
+    .nav-lista{
+        display: block;
+        font-size: 70%;
+    }
+    .nav-lista_item-link{
+        border-bottom: 1px solid var(--negro);
+    }
+    .nav-form{
+        display: block;
+    }
+
+    .footer{
+        font-size: 70%;
+    }
+
+}    
+
+
+@media (max-width: 400px) {
+           
 }
