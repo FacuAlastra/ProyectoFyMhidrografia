@@ -1,0 +1,111 @@
+
+:root{
+    --gris: rgba(0, 0, 0, 0.212);
+    --negro: black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--gris);
+    background-image: url(/images/fondo.jpg);
+}
+
+ .cabecera{
+    display: flex;
+    justify-content: center; 
+} 
+
+.logo{
+    position: absolute;
+    right: 365px;
+    top: 55px;
+    border-radius: 30px;
+}
+
+.slider1{
+    display: flex;
+    justify-content: center;   
+    position: relative;
+}
+
+.contenedor{
+    background-color: grey;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* -------------------------navegación------------------------- */
+.nav{
+    background-color: rgba(117, 117, 253, 0.692);
+    display: flex;
+    padding: 8px;
+
+    margin-bottom: 20px;
+
+   
+}
+.nav-lista, .nav-form{
+    flex-grow: 1;
+}
+
+.nav-lista{
+    display: flex;
+    /* justify-content: space-around; */
+    /* margin: auto; */
+    list-style: none;   
+}
+
+/* .nav-lista_item{
+    max-width: 1000px;
+} */
+
+.nav-lista_item-link{
+    display: block;
+    padding: 5px 23px;
+    border-right: 1px solid var(--negro);
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-lista_item-link:hover{
+    text-decoration:underline;
+    transform: scale(1.1);
+    background-color:rgb(38, 104, 226);
+}
+.nav-form{
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* -------------------slider de imágenes------------------- */
+
+.slider2{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 70px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    border-top: 1px solid var(--negro);
+    padding-bottom: 20px;
+    background-color: var(--gris);
+}
+
+.footer-copy{
+    border-right: 1px solid var(--negro);
+}
+
+.footer-redes{
+    border-right: 1px solid var(--negro);
+}
