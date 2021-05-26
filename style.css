@@ -20,7 +20,7 @@ img{
 }
 
 .slider1{
-    background-image: url(/images/flamas.jpg);
+    background-image: url(/images/llamas\ purpuras.png);
     position: relative;
     height: 300px;
     width: 100%;
@@ -124,6 +124,29 @@ img{
     border-right: 1px solid var(--negro);
 }
 
+/* -----------Página de contacto--------------- */
+
+.contact{
+    margin-left: 40px;
+}
+.contact_nav{
+    padding: 20px;
+}
+.contact_nav-lista{
+    list-style: none;
+}
+.contact_nav-lista_item{
+    margin-bottom: 10px;
+    color: white;
+}
+.contact_nav-lista_item-link{
+    margin-left: 8px;
+    color: var(--negro);
+}
+.icon{
+    max-width: 25px;
+}
+
 
 
 @media (max-width: 800px) {
@@ -135,6 +158,19 @@ img{
 /* media query solo para celulares */
 @media (max-width: 767px) {
     
+    .slider1{
+        height: 200px;
+        width: 100%;
+        max-width: 767px;
+    }
+    .logo{
+        margin-top: 30px; 
+        display: flex;
+    }
+
+    .nav{
+        flex-wrap: wrap;
+    }
     .nav-lista{
         display: block;
         font-size: 70%;
@@ -148,6 +184,15 @@ img{
 
     .footer{
         font-size: 70%;
+        display: block;
+    }
+    .footer-copy{
+        border-bottom: 1px solid var(--negro);
+        border-right: none;
+    }
+    .footer-redes{
+        border-bottom: 1px solid var(--negro);
+        border-right: none;
     }
 
 }    
