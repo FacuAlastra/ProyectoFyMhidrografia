@@ -11,7 +11,7 @@
 }
 
 body{
-    background-color: var(--gris);
+    /* background-color: var(--gris); */
     background-image: url(/images/fondo.jpg);
 }
 
@@ -59,7 +59,8 @@ h2{
 }
 
 .contenedor{
-    background-color: grey;
+    /* background-color: grey; */
+    background-color: rgb(111, 99, 117);
     max-width: 1000px;
     margin: auto;
 }
