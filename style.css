@@ -73,13 +73,20 @@ h2{
     margin-bottom: 20px;
 }
 
+.menu-hamburguesa{
+    background:none;
+    display: none;
+    justify-content: left;
+    margin-left: 5px;
+}
+
 .nav-lista, .nav-form{
     flex-grow: 1;
 }
 
 .nav-lista{
     display: flex;
-    list-style: none;   
+    list-style: none;  
 }
 .nav-lista_item{
     flex-grow: 1;
@@ -222,13 +229,29 @@ h2{
         height: 130px;
     }
 
+
     .nav{
         flex-wrap: wrap;
     }
 
+
     .nav-lista{
-        display: block;
+        /* display: block; */
+        display: none;
         font-size: 70%;
+    }
+
+    .menu-hamburguesa{
+        display: block;
+        max-height: 40px;
+    }
+
+    .menujs{
+        display: none;
+    }
+
+    .desplegar{
+        display: block;
     }
 
     .nav-lista_item:last-child a{
