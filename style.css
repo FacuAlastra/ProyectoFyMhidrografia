@@ -195,6 +195,8 @@ h2{
 
 .img-catalogo:hover{
     background-color: rgb(83, 63, 83);
+    cursor: pointer;
+    transform: rotate(1deg);
 }
 
 
@@ -214,7 +216,7 @@ h2{
     }
 }*/
 
-/* media query solo para celulares */
+/*------------------- media query solo para celulares------------------ */
 @media (max-width: 900px) {
     
     .slider1{
@@ -232,6 +234,7 @@ h2{
 
     .nav{
         flex-wrap: wrap;
+        flex-direction: row-reverse;
     }
 
 
@@ -241,9 +244,19 @@ h2{
         font-size: 70%;
     }
 
+    .img-hamburguer{
+        max-width: 40px;
+        max-height: 35px;
+    }
+
     .menu-hamburguesa{
         display: block;
         max-height: 40px;
+        flex-direction: row-reverse;
+    }
+
+    .menu-hamburguesa:hover{
+        cursor: pointer;
     }
 
     .menujs{
