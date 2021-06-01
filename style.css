@@ -199,6 +199,32 @@ h2{
     transform: rotate(1deg);
 }
 
+/* ----------------------Página Quiénes somos----------------------- */
+.quienes-somos{
+    display: flex;
+    margin: 10px;
+}
+.presentacion{
+    font-size: 20px;
+    max-width: 400px;
+    margin: 20px;
+    margin-bottom: 20px;
+}
+.presentacion p{
+    margin-bottom: 20px;
+}
+.habilidades{
+    /* display: grid; */
+    /* flex-direction: row; */
+    /* hacer con pseudo elementos */
+
+}
+
+.img-presentacion{
+    min-width: 180px;
+    padding-bottom: 10px;
+}
+
 
 
 /*@media (max-width: 900px) {
@@ -307,6 +333,10 @@ h2{
         grid-template-columns: repeat(2, 1fr);
         gap: 3px;
         margin: 10px;
+    }
+
+    .quienes-somos{
+        display: block;
     }
 
 }    
