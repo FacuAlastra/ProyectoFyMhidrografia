@@ -54,32 +54,57 @@
             
         </nav>
 
-        <div class="contact">
-            <h1>Contactanos</h1>
-            <nav class="contact_nav">
-                <ul class="contact_nav-lista">
-                    <li class="contact_nav-lista_item">
-                        <img src="/images/iconos-redes/whatsapp.png" class="icon" alt="icono whatsapp">
-                        <a href="https://web.whatsapp.com/" class="contact_nav-lista_item-link">Whats app</a>
-                    </li> 
-                    <li class="contact_nav-lista_item">
-                        <img src="/images/iconos-redes/gmail.png" class="icon" alt="icono gmail">
-                        <a href="https://www.gmail.com" class="contact_nav-lista_item-link">Email</a>
-                    </li>
-                    <li class="contact_nav-lista_item">
-                        <img src="/images/iconos-redes/facebook.png" class="icon" alt="icono facebook">
-                        <a href="https://www.facebook.com" class="contact_nav-lista_item-link">Facebook</a>
-                    </li>
-                    <li class="contact_nav-lista_item">
-                        <img src="/images/iconos-redes/instagram.png" class="icon" alt="icono instagram">
-                        <a href="https://www.instagram.com" class="contact_nav-lista_item-link">Instagram</a>
-                    </li>
-                    <li class="contact_nav-lista_item">
-                        <img src="/images/iconos-redes/twitter.png" class="icon" alt="icono twitter">
-                        <a href="https://www.twitter.com" class="contact_nav-lista_item-link">Twitter</a>
-                    </li>           
-                </ul>
-            </nav>
+        <div class="contacto">
+            <!-- <h1>Contactanos</h1> -->
+            <div class="contacto_form">
+                <form id="form" action="">
+                    <p>
+                        <label for="name">Nombre</label> <br>
+                        <input required type="text" name="name" id="name">
+                    </p>
+
+                    <p>
+                        <label for="email">Email</label> <br>
+                        <input required type="email" name="email" id="email">
+                    </p>
+
+                    <p class="block">
+                        <label for="message">Mensaje</label> <br>
+                        <textarea required name="message" id="message" rows="5"></textarea>
+                    </p>
+
+                    <p class="block">
+                        <button type="submit">Enviar</button>
+                    </p>
+                </form>
+            </div> <!-- acá cierra .contacto_form -->
+
+                <div class="info">
+                    <h2>Mas información</h2>
+                    <ul class="info_lista">
+                        <li class="info_lista-item">
+                            <img src="/images/iconos-redes/whatsapp.png" class="icon" alt="icono whatsapp">
+                            <a href="https://web.whatsapp.com/" class="info_lista-item_link">Whats app</a>
+                        </li> 
+                        <li class="info_lista-item">
+                            <img src="/images/iconos-redes/gmail.png" class="icon" alt="icono gmail">
+                            <a href="https://www.gmail.com" class="info_lista-item_link">Email</a>
+                        </li>
+                        <li class="info_lista-item">
+                            <img src="/images/iconos-redes/facebook.png" class="icon" alt="icono facebook">
+                            <a href="https://www.facebook.com" class="info_lista-item_link">Facebook</a>
+                        </li>
+                        <li class="info_lista-item">
+                            <img src="/images/iconos-redes/instagram.png" class="icon" alt="icono instagram">
+                            <a href="https://www.instagram.com" class="info_lista-item_link">Instagram</a>
+                        </li>
+                        <li class="info_lista-item">
+                            <img src="/images/iconos-redes/twitter.png" class="icon" alt="icono twitter">
+                            <a href="https://www.twitter.com" class="info_lista-item_link">Twitter</a>
+                        </li>           
+                    </ul>
+                </div> <!-- acá cierra .info -->
+            
             
         </div>
 
